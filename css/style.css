@@ -105,6 +105,10 @@ h1{
   font-size: 48px;
   line-height: 1.0;
   text-align:center;
+  margin-top: 10px;
+  margin-bottom:20px;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 h2{
@@ -113,6 +117,10 @@ h2{
   font-size: 48px;
   line-height: 1.0;
   text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+  margin-left:10px;
+  margin-right:10px;
 }
 
 h3{
@@ -144,6 +152,13 @@ h4{
   word-wrap:break-word;
 }
 
+h5{
+  font-weight:500;
+  font-size: 24px;
+  background-color: transparent;
+  margin:5px;
+}
+
 #links{
   font-size: 36px;
   font-weight: 700;
@@ -154,7 +169,8 @@ h4{
 p{
   background-color: aliceblue;
   padding: 10px;
-
+  display:flex;
+  flex-direction:column;
 }
 
 button{
@@ -231,7 +247,6 @@ a, button{
   padding:10px;
   align-items:center;
   background-color: #b3d4fc;
-
 }
 
 .sectionItem{
@@ -239,6 +254,58 @@ a, button{
   margin:10px;
   background-color: aliceblue;
 }
+
+.tableOfContentsItems{
+  display:flex;
+  flex-direction: row;
+}
+
+.tableHeader{
+  margin:0px;
+}
+
+.tableSection{
+  display:flex;
+  margin:5px;
+  padding-left:5px;
+  padding-right:5px;
+  flex-direction:column;
+  background-color:aliceblue;
+  width: 200px;
+  min-width: 40%;
+
+}
+
+.tableItemGreaterHeader{
+  text-align:center;
+}
+.tableItemHeader{
+  background-color: transparent;
+}
+
+.tableSectionDays{
+  margin:0px;
+}
+
+.tableDay{
+  margin-top:0px;
+  margin-bottom:2px;
+  text-align:left;
+}
+
+.daysGreaterSectionHeader{
+  font-size:36px;
+  padding:5px;
+  background-color:aliceblue;
+}
+
+.blogPostImage{
+  margin:auto;
+  width:75vw;
+  max-width:500px;
+  justify-self:center;
+}
+
 
 /* ----------------------------- */
 
